@@ -34,7 +34,14 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
 }
-
+.navbar-text a{
+    text-decoration: none;
+    color: #c3e43f;
+    font-weight: 600;
+}
+.navbar-text a:hover{
+    color: #563cc8;
+}
 #input-panel {
     margin-top: 50px;
 }
@@ -98,3 +105,17 @@ body {
 
     color: white;
 }
+.footer {
+    background-color: #20402e;
+    opacity: 0.7;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.footer .text-color {
+    color: #c8e43f;
+    font-weight: 600;
+}
+
+/* Add any additional styling you need for the footer */
